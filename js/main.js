@@ -55,7 +55,7 @@
         const d2 = dx * dx + dy * dy;
         if (d2 < 15000) {
           const a = (1 - d2 / 15000) * 0.34;
-          ctx.strokeStyle = 'rgba(108,123,255,' + a.toFixed(3) + ')';
+          ctx.strokeStyle = 'rgba(59,130,246,' + a.toFixed(3) + ')';
           ctx.beginPath();
           ctx.moveTo(pts[i].x, pts[i].y);
           ctx.lineTo(pts[j].x, pts[j].y);
@@ -64,7 +64,7 @@
       }
     }
     for (const p of pts) {
-      ctx.fillStyle = 'rgba(140,155,255,.8)';
+      ctx.fillStyle = 'rgba(96,165,250,.8)';
       ctx.beginPath();
       ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
       ctx.fill();
@@ -75,7 +75,7 @@
 
 /* ---------- Three.js neural globe (hero, top right) ---------- */
 (function startGlobe() {
-  const GLOBE_COLOR = '#6C7BFF';
+  const GLOBE_COLOR = '#3B82F6';
 
   function boot() {
     if (!window.THREE) { setTimeout(boot, 120); return; }
