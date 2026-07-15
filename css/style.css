@@ -116,6 +116,7 @@ input::placeholder, textarea::placeholder { color: #4B5578; }
 .bg-pink     { background: rgba(244, 114, 182, .14); }
 .bg-slate    { background: #3A3F58; }
 .bg-blue     { background: #2563EB; }
+.bg-cyan     { background: rgba(103, 232, 249, .16); }
 
 /* =====================================================
    HERO
@@ -369,6 +370,7 @@ input::placeholder, textarea::placeholder { color: #4B5578; }
 .org-indigo { color: #7C8CF8; }
 .org-violet { color: var(--violet); }
 .org-pink   { color: var(--pink); }
+.org-cyan   { color: var(--cyan); }
 .tl-dates { font-size: 12px; font-weight: 500; color: var(--faint); }
 .tl-card p { margin: 0; font-size: 13.5px; line-height: 1.65; color: var(--muted); }
 
@@ -381,6 +383,7 @@ input::placeholder, textarea::placeholder { color: #4B5578; }
 .node-indigo { background: #6C7BFF; box-shadow: 0 0 14px #6C7BFF; }
 .node-violet { background: #A78BFA; box-shadow: 0 0 14px #A78BFA; }
 .node-pink   { background: #F472B6; box-shadow: 0 0 14px #F472B6; }
+.node-cyan   { background: #67E8F9; box-shadow: 0 0 14px #67E8F9; }
 
 /* =====================================================
    TECH STACK
