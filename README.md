@@ -1,5 +1,6 @@
 # Swastika Khatua — AI/ML Engineer Portfolio
 Live: https://swastika-prog.github.io/Portfolio/
+
 Dark neural-themed portfolio: animated plexus background, Three.js neural globe, scroll reveals, and animated skill bars. Plain HTML + CSS + JS — no build step.
 
 ## Structure
